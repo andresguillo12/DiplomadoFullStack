@@ -23,6 +23,9 @@ export class LayoutComponent implements OnInit {
   categoriesIcon = findIconDefinition({ prefix: 'fas', iconName: 'cubes' });
   historyIcon = findIconDefinition({ prefix: 'fas', iconName: 'history' });
   helpIcon = findIconDefinition({ prefix: 'fas', iconName: 'question-circle' });
+  shopingIcon = findIconDefinition({ prefix: 'fas', iconName: 'shopping-cart' });
+  userIcon = findIconDefinition({ prefix: 'fas', iconName: 'user' });
+  searchIcon = findIconDefinition({ prefix: 'fas', iconName: 'search' });
 
   constructor() { }
 
